@@ -4,14 +4,17 @@ import { BsHandbagFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
+
 function Navbar() {
+    
+    
     return (
         <nav className="navbar">
             <Link to="/" className="navbar-brand">
                 <img src="/assets/site-logo.svg" alt="PLASHOE Logo" />
             </Link>
             <ul className="nav-categories">
-                <li><Link to="/products">MEN</Link></li>
+                <li><Link>MEN</Link></li>
                 <li><Link to="/products">WOMEN</Link></li>
                 <li><Link to="/products">COLLECTION</Link></li>
                 <li><Link to="/products">LOOKBOOK</Link></li>

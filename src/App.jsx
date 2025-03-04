@@ -1,10 +1,11 @@
-import React from 'react';
+import  'react';
 import { Routes, Route } from 'react-router-dom'; // Import only Routes and Route
 import './App.css';
 import Navbar from './components/user/Navbar/Navbar.jsx';
 import Home from './components/user/Home/Home.jsx'; // Import the new Home component
 import Card from './components/user/card/Card.jsx';
 import Footer from './components/user/Footer/Footer.jsx';
+
 import NotFound from './components/NotFound.jsx'; // Ensure this path is correct
 
 function App() {
@@ -24,5 +25,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
